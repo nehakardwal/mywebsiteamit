@@ -1,0 +1,438 @@
+/* FOR ALL */
+
+
+*{ 
+     margin: 0;
+   
+    padding: 0;
+      
+    box-sizing: border-box;
+    font-family: cursive;
+    height: min-content;
+
+}
+/* HOME PAGE */
+.main{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=1420&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+.logo{
+    color: white;
+    cursor: pointer;
+    font-size: 35px;
+    letter-spacing: 1px;
+    
+   
+
+
+}
+span{
+    color: red;
+    
+    
+}
+     h1>span{
+        
+    color: red;
+    animation: amit 2s linear infinite}
+    
+
+@keyframes amit{
+   
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-decoration: capitalize;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: .4s;
+
+}
+.btn{
+    border: 1px soild transparent;
+    border-radius: 30px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    padding: 10px 25px;
+
+    transition: 1s;
+    text-decoration: none;
+
+
+}
+.btn:hover{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 16px goldenrod;
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color:white ;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+/* ABOUT US */
+
+.about{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 100px 0px;
+    ;
+    background-image: url(backabout2.png);
+
+
+}
+
+    .about img{
+        height: auto;
+        width: 430px ;
+        padding-right: 20pxx;
+        position: relative;
+        right: 40px;
+        box-shadow: 4px 4px 16px white;
+    }
+    .about-text{
+        width: 550px;
+    }
+   
+   
+   .lastmain{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   }
+   .abouttext h3{
+    color: wheat;
+    font-size: 75px;
+    text-transform: capitalize;
+        margin-bottom: 20px;
+   }
+   .abouttext h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+     text-transform: capitalize;
+   }
+   .abouttext p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+   }
+   /* my inetrest */
+   .service{
+    margin: 0;
+    padding: 0;
+    background: #101010;
+    width: 100%;
+    
+    padding: 200px 0px;
+    display: flex;
+    background-image: url(canva26022.jpeg);
+    background-size: cover;
+    
+
+   }
+
+  
+   .title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    left: 150px;
+   }
+   .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    position: relative;
+    right: 1000px;
+    
+   }
+   .card{
+    height: 400px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #484283;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+     overflow: hidden;
+        text-align: center;
+        box-shadow: 8px 8px 18px rgb(246, 247, 245);
+        transition-duration: 2s;
+   }
+   .card:hover{
+    transform: scale(1.2);
+    box-shadow:12px 12px 24px rgb(49, 61, 114) ;
+   }
+   .card i{
+      font-size: 50px;
+      display: block;
+      text-align: center;
+      margin: 25px 0px;
+      color: #f9004d;
+      transition: 1s;
+    text-decoration: none;
+
+   }
+   .card i:hover{
+
+    transform: scale(1.2);
+    box-shadow: 4px 4px 10px white;
+
+   }
+   h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+   }
+   .pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+   }
+   .button{
+    border: 1px soild transparent;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    padding: 10px 10px;
+
+    transition: 1s;
+    text-decoration: none;
+
+   }
+   .button:hover{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 16px goldenrod;
+}
+.contactme{ 
+    width: 100%;
+    height: 290px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* SKILLS */
+
+.skill{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 200px 0px;
+    background-color: black;
+    display: flex;
+    background-image: url(skills26022.jpeg);
+    background-size: cover;
+    
+
+}
+ .myskill{
+    color: wheat;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+     width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex
+    align-items: center;
+    justify-content: space-around;
+ }
+ .skillbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    position: relative;
+    right: 1000px;
+ }
+ .skillcard{
+    height: 400px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #563671;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+     overflow: hidden;
+        text-align: center;
+        box-shadow: 8px 8px 16px rgb(244, 246, 244);
+        transition-duration: 2s;
+
+ }
+.skillcard:hover{
+transform: scale(1.2);
+box-shadow: 12px 12px 24px rgb(2, 114, 252);
+}
+ .skillcard i{
+      font-size: 50px;
+      display: block;
+      text-align: center;
+      margin: 25px 0px;
+      color: #f9004d;
+      transition: 1s;
+    text-decoration: none;
+
+   }
+
+
+
+   /* achive */
+
+  .achive{
+    margin: 0;
+    padding: 0;
+    background-image: url(tiger26022.jpeg);
+   
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+   
+  }
+  .achive h2{
+    color: azure;
+    position: relative;
+    left: 500px;
+    font-size: 75px;
+    font-weight: 1100;
+    
+    
+  }
+  
+  
+
+    .certificate{
+        position: relative;
+        left: 100px;
+        top: 150px;
+        bottom: 150px;
+        height: 200px;
+        
+        
+
+    }
+    .certificate img{
+        box-shadow: 4px 4px 10px white;
+        border-radius: 10px 100px / 120px;
+
+
+    }
+    .a{
+        transition-duration: 3s;
+
+    }
+    .a:hover{
+        
+        border-radius: 0;
+        transform: scale(1.9);
+    }
+   .b{
+    transition-duration: 3s;
+
+   }
+   .b:hover{
+    border-radius: 0;
+        transform: scale(1.9);
+   }
+   .contact{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(water26022.jpeg);
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .share{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+   }
+
+
+.share a{
+font-size: 30px;
+    margin: 10px;
+}
+.contact h2{
+    color: #e00b0b;
+}
